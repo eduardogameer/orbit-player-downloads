@@ -1,0 +1,19 @@
+name: Publicar APK validado de teste
+on:
+  push:
+    tags: ['v*-test*']
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Conferir APK e publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          (cd test-build && sha256sum --check orbit-player.apk.sha256)
+          gh release create "$RELEASE_TAG" test-build/orbit-player.apk test-build/update.json --verify-tag --prerelease --title "Orbit Player 0.23-test — sem servidor local" --notes-file test-build/RELEASE-NOTES.md
