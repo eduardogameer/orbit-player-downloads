@@ -1,7 +1,10 @@
-# Orbit Player 0.23.3-test — sem servidor local
+# Orbit Player 0.23.4-test — sem servidor local
 
 APK baseado na versão em uso no TV Box, com interface e acesso às listas embutidos.
 
+- Busca e download de atualizações restaurados em Configurações → Informação geral, com aviso automático e confirmação de instalação.
+- Foco individual nas fotos do elenco, sem contorno em toda a lista e sem corte inferior.
+- Menu superior visível na inicialização, mesmo em WebViews antigos do Android 7.1.
 - Favoritos acessíveis com ↑ na capa e OK na estrela; ↓ retorna à capa.
 - Entrada em filmes e séries foca a primeira capa; abertura inicial foca TV ao vivo.
 - Um Voltar fecha o episódio e retorna à lista de episódios.
