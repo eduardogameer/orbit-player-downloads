@@ -1,7 +1,12 @@
-# Orbit Player 0.23.2-test — sem servidor local
+# Orbit Player 0.23.3-test — sem servidor local
 
 APK baseado na versão em uso no TV Box, com interface e acesso às listas embutidos.
 
+- Favoritos acessíveis com ↑ na capa e OK na estrela; ↓ retorna à capa.
+- Entrada em filmes e séries foca a primeira capa; abertura inicial foca TV ao vivo.
+- Um Voltar fecha o episódio e retorna à lista de episódios.
+- Botão Elenco e personagens e navegação do controle abaixo dos episódios.
+- Seleção das categorias com fundo branco e texto preto reforçado.
 - Logo e indicador de carregamento animado na inicialização, com ícone do aplicativo no launcher.
 - Abre diretamente sem computador, servidor Python ou campo de endereço local.
 - Mantém ExoPlayer nativo para canais, filmes e séries, navegação pelo controle e retorno da tela cheia.
