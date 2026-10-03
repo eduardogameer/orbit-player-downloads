@@ -1,7 +1,8 @@
-# Orbit Player 0.23-test — sem servidor local
+# Orbit Player 0.23.1-test — sem servidor local
 
 APK baseado na versão em uso no TV Box, com interface e acesso às listas embutidos.
 
+- Logo e indicador de carregamento animado na inicialização, com ícone do aplicativo no launcher.
 - Abre diretamente sem computador, servidor Python ou campo de endereço local.
 - Mantém ExoPlayer nativo para canais, filmes e séries, navegação pelo controle e retorno da tela cheia.
 - TMDB automático pelo csroyal.ddns.net; nenhuma chave TMDB é incluída no APK.

@@ -1,7 +1,7 @@
 {
-  "versionCode": 26,
-  "versionName": "0.23-test",
-  "url": "https://github.com/eduardogameer/orbit-player-downloads/releases/download/v0.23-test/orbit-player.apk",
-  "sha256": "4945d4e3e5bccde7272cb172b4ec32429d2fac9954e082b7d5a96ba973dcf11e",
-  "size": 5080004
+  "versionCode": 27,
+  "versionName": "0.23.1-test",
+  "url": "https://github.com/eduardogameer/orbit-player-downloads/releases/download/v0.23.1-test/orbit-player.apk",
+  "sha256": "de3da14e8990c1595a800d7d93a1a4b4a14a7c6be98e0578288ada317e68ce0d",
+  "size": 5073115
 }
