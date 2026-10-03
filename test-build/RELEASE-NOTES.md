@@ -1,4 +1,4 @@
-# Orbit Player 0.23.1-test — sem servidor local
+# Orbit Player 0.23.2-test — sem servidor local
 
 APK baseado na versão em uso no TV Box, com interface e acesso às listas embutidos.
 
