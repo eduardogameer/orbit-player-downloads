@@ -1,22 +1,10 @@
-# Orbit Player 0.23.4-test — sem servidor local
+# Orbit Player 0.24.0
 
-APK baseado na versão em uso no TV Box, com interface e acesso às listas embutidos.
+- Confirmação visível ao salvar o PIN e bloquear conteúdo adulto nas configurações.
+- Categorias de reality show em destaque no topo da TV ao vivo, com A Fazenda em primeiro.
+- Filmes e séries em grade de cartões no celular em paisagem, com rolagem independente das categorias.
+- Barras do Android ocultas, controles adaptados ao toque e TV ao vivo com vídeo e programação.
+- Recuperação automática de transmissões travadas e troca de canal mantendo a tela cheia na TV Box.
+- Navegação pelo controle corrigida e teclado nos campos de adicionar lista aberto somente ao confirmar.
+- Processamento da lista em etapas com progresso para manter a interface responsiva.
 
-- Busca e download de atualizações restaurados em Configurações → Informação geral, com aviso automático e confirmação de instalação.
-- Foco individual nas fotos do elenco, sem contorno em toda a lista e sem corte inferior.
-- Menu superior visível na inicialização, mesmo em WebViews antigos do Android 7.1.
-- Favoritos acessíveis com ↑ na capa e OK na estrela; ↓ retorna à capa.
-- Entrada em filmes e séries foca a primeira capa; abertura inicial foca TV ao vivo.
-- Um Voltar fecha o episódio e retorna à lista de episódios.
-- Botão Elenco e personagens e navegação do controle abaixo dos episódios.
-- Seleção das categorias com fundo branco e texto preto reforçado.
-- Logo e indicador de carregamento animado na inicialização, com ícone do aplicativo no launcher.
-- Abre diretamente sem computador, servidor Python ou campo de endereço local.
-- Mantém ExoPlayer nativo para canais, filmes e séries, navegação pelo controle e retorno da tela cheia.
-- TMDB automático pelo csroyal.ddns.net; nenhuma chave TMDB é incluída no APK.
-- Mantém as correções de teclado, capas, foco, categorias e barras de rolagem.
-- Preserva lista e preferências ao atualizar a instalação de teste existente com a mesma assinatura.
-
-Requer Android 7.1 ou superior e internet para listas, capas e reprodução. Nenhum conteúdo IPTV ou dado de acesso do usuário é incluído.
-
-Instale orbit-player-teste.apk como atualização. Não é necessário executar server.py.

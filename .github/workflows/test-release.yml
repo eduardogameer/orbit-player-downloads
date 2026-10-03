@@ -1,7 +1,7 @@
-name: Publicar APK validado de teste
+name: Publicar APK validado
 on:
   push:
-    tags: ['v*-test*']
+    tags: ['v*']
 permissions:
   contents: write
 jobs:
@@ -16,4 +16,9 @@ jobs:
           RELEASE_TAG: ${{ github.ref_name }}
         run: |
           (cd test-build && sha256sum --check orbit-player.apk.sha256)
-          gh release create "$RELEASE_TAG" test-build/orbit-player.apk test-build/update.json --verify-tag --prerelease --title "Orbit Player $RELEASE_TAG — sem servidor local" --notes-file test-build/RELEASE-NOTES.md
+          if [[ "$RELEASE_TAG" == *-test* ]]; then
+            RELEASE_ARGS=(--prerelease)
+          else
+            RELEASE_ARGS=(--latest)
+          fi
+          gh release create "$RELEASE_TAG" test-build/orbit-player.apk test-build/update.json --verify-tag "${RELEASE_ARGS[@]}" --title "Orbit Player $RELEASE_TAG" --notes-file test-build/RELEASE-NOTES.md
