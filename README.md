@@ -2,4 +2,4 @@
 
 APKs e atualizações oficiais do Orbit Player. Código-fonte mantido em repositório privado.
 
-[Baixar Orbit Player 0.25.23](https://github.com/eduardogameer/orbit-player-downloads/releases/tag/v0.25.23).
+[Baixar Orbit Player](https://github.com/eduardogameer/orbit-player-downloads/releases/tag/orbit-player): a mesma release é atualizada a cada nova versão. Download direto: [orbit-player.apk](https://github.com/eduardogameer/orbit-player-downloads/releases/download/orbit-player/orbit-player.apk).
