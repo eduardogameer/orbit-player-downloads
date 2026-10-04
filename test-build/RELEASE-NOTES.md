@@ -1,10 +1,9 @@
-# Orbit Player 0.24.0
+# Orbit Player 0.25.22
 
-- Confirmação visível ao salvar o PIN e bloquear conteúdo adulto nas configurações.
-- Categorias de reality show em destaque no topo da TV ao vivo, com A Fazenda em primeiro.
-- Filmes e séries em grade de cartões no celular em paisagem, com rolagem independente das categorias.
-- Barras do Android ocultas, controles adaptados ao toque e TV ao vivo com vídeo e programação.
-- Recuperação automática de transmissões travadas e troca de canal mantendo a tela cheia na TV Box.
-- Navegação pelo controle corrigida e teclado nos campos de adicionar lista aberto somente ao confirmar.
-- Processamento da lista em etapas com progresso para manter a interface responsiva.
+- Filmes e episódios exibem um indicador de carregamento até o primeiro quadro estar pronto na TV Box.
+- Um toque em Voltar encerra o filme ou episódio e retorna direto aos detalhes, sem mostrar o player menor.
+- Corrigida a sobreposição de quadros antigos ao fechar o vídeo em TV Box Android 7.1.
+- Ajustes nos controles do player pelo controle remoto e na abertura de TV ao vivo.
+- Testado na TV Box API 25: reprodução de episódio, carregamento demorado e cancelamento com Voltar.
 
+Instale orbit-player.apk como atualização. A assinatura foi preservada para manter listas e configurações.
