@@ -1,9 +1,11 @@
-# Orbit Player 0.25.22
+# Orbit Player 0.25.23
 
-- Filmes e episódios exibem um indicador de carregamento até o primeiro quadro estar pronto na TV Box.
-- Um toque em Voltar encerra o filme ou episódio e retorna direto aos detalhes, sem mostrar o player menor.
-- Corrigida a sobreposição de quadros antigos ao fechar o vídeo em TV Box Android 7.1.
-- Ajustes nos controles do player pelo controle remoto e na abertura de TV ao vivo.
-- Testado na TV Box API 25: reprodução de episódio, carregamento demorado e cancelamento com Voltar.
+- Segurança: o relay embutido do aplicativo só acessa servidores públicos da internet, inclusive após redirecionamentos. Listas, guias e canais não conseguem mais direcionar o TV Box para o roteador ou outros aparelhos da rede local.
+- A interface passa a executar apenas os scripts do próprio aplicativo, e as respostas do relay ficam isoladas.
+- Controle parental: o limite de tentativas do PIN continua valendo após fechar e reabrir o aplicativo.
+- Controle remoto: setas, OK e Voltar respondem normalmente durante filmes e episódios em tela cheia na TV Box Android 7.1.
+- O ícone de play do sistema não aparece mais ao sair do vídeo.
+- A versão exibida em Configurações foi corrigida.
+- Testado na TV Box API 25: canal ao vivo, filme, série, controle remoto em tela cheia e cadastro de lista pela web.
 
-Instale orbit-player.apk como atualização. A assinatura foi preservada para manter listas e configurações.
+Esta versão usa uma nova assinatura. Se você tem uma versão anterior instalada, desinstale-a antes de instalar orbit-player.apk e cadastre sua lista novamente. As próximas atualizações instalam por cima normalmente.
