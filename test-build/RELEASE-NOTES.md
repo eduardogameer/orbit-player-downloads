@@ -1,11 +1,9 @@
-# Orbit Player 0.25.24
+# Orbit Player 0.25.26
 
-- Fim de episódio em tela cheia: a contagem do próximo episódio aparece sobre o vídeo, sem voltar ao player menor. OK assiste o próximo na hora e Voltar sai.
-- O aviso de vencimento da assinatura IPTV aparece no banner da tela inicial (âmbar quando está para vencer, vermelho quando venceu), em vez de uma faixa em todas as telas.
-- Filmes e Séries abrem mais rápido com listas grandes.
-- Lista cadastrada pela web chega mais rápido, e o download mostra o progresso ("Baixando lista… 12 de 40 MB").
-- Player ajustado para TV Box com pouca memória: buffer limitado, no máximo 1080p e troca automática de decodificador se o primeiro falhar.
-- Cadastro pela web protegido contra tentativas de adivinhar a chave do dispositivo.
-- Testado na TV Box Android 7.1 (API 25).
+- Atualizações mais simples: a partir desta versão, o aplicativo baixa e confere a versão nova sozinho, em segundo plano, e só pergunta "Nova versão pronta — Instalar?". A pergunta nunca aparece por cima de um vídeo em tela cheia, e com "Depois" volta na próxima vez que o aplicativo for aberto.
+- Fire TV e TVs sem atalho para a permissão de instalar: o aplicativo mostra onde ativar "Instalar apps desconhecidos" para o Orbit Player.
+- Ao sair da tela cheia na TV ao vivo, o foco volta direto para o canal, sem passar pelo botão "Início".
+- Aviso de vencimento: depois que a assinatura vence, o banner continua vermelho mesmo quando o provedor deixa de informar a data. Se o provedor bloquear a lista sem data conhecida, aparece "Acesso bloqueado". Renovada ou ilimitada, o banner volta ao normal.
+- "Adicionar lista" sempre registra o aparelho de novo, então o MAC e a chave mostrados funcionam no site mesmo com uma lista já salva.
 
-Instale orbit-player.apk como atualização da versão 0.25.23: listas e configurações são mantidas. Versões anteriores à 0.25.23 usam outra assinatura e precisam ser desinstaladas antes.
+Instalação na Fire TV ou Android TV pelo app Downloader: digite `csroyal.ddns.net/orbit`.
