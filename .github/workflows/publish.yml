@@ -1,0 +1,19 @@
+name: Publicar Orbit Player
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verificar e publicar APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          cd .github/release
+          sha256sum --check orbit-player.apk.sha256
+          gh release create "$RELEASE_TAG" orbit-player.apk update.json orbit-player.apk.sha256 --verify-tag --latest --title "Orbit Player $RELEASE_TAG" --notes-file RELEASE-NOTES.md
