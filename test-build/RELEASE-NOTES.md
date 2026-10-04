@@ -1,11 +1,11 @@
-# Orbit Player 0.25.23
+# Orbit Player 0.25.24
 
-- Segurança: o relay embutido do aplicativo só acessa servidores públicos da internet, inclusive após redirecionamentos. Listas, guias e canais não conseguem mais direcionar o TV Box para o roteador ou outros aparelhos da rede local.
-- A interface passa a executar apenas os scripts do próprio aplicativo, e as respostas do relay ficam isoladas.
-- Controle parental: o limite de tentativas do PIN continua valendo após fechar e reabrir o aplicativo.
-- Controle remoto: setas, OK e Voltar respondem normalmente durante filmes e episódios em tela cheia na TV Box Android 7.1.
-- O ícone de play do sistema não aparece mais ao sair do vídeo.
-- A versão exibida em Configurações foi corrigida.
-- Testado na TV Box API 25: canal ao vivo, filme, série, controle remoto em tela cheia e cadastro de lista pela web.
+- Fim de episódio em tela cheia: a contagem do próximo episódio aparece sobre o vídeo, sem voltar ao player menor. OK assiste o próximo na hora e Voltar sai.
+- O aviso de vencimento da assinatura IPTV aparece no banner da tela inicial (âmbar quando está para vencer, vermelho quando venceu), em vez de uma faixa em todas as telas.
+- Filmes e Séries abrem mais rápido com listas grandes.
+- Lista cadastrada pela web chega mais rápido, e o download mostra o progresso ("Baixando lista… 12 de 40 MB").
+- Player ajustado para TV Box com pouca memória: buffer limitado, no máximo 1080p e troca automática de decodificador se o primeiro falhar.
+- Cadastro pela web protegido contra tentativas de adivinhar a chave do dispositivo.
+- Testado na TV Box Android 7.1 (API 25).
 
-Esta versão usa uma nova assinatura. Se você tem uma versão anterior instalada, desinstale-a antes de instalar orbit-player.apk e cadastre sua lista novamente. As próximas atualizações instalam por cima normalmente.
+Instale orbit-player.apk como atualização da versão 0.25.23: listas e configurações são mantidas. Versões anteriores à 0.25.23 usam outra assinatura e precisam ser desinstaladas antes.
