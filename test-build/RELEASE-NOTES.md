@@ -1,9 +1,11 @@
-# Orbit Player 0.25.26
+# Orbit Player 0.25.29
 
-- Atualizações mais simples: a partir desta versão, o aplicativo baixa e confere a versão nova sozinho, em segundo plano, e só pergunta "Nova versão pronta — Instalar?". A pergunta nunca aparece por cima de um vídeo em tela cheia, e com "Depois" volta na próxima vez que o aplicativo for aberto.
-- Fire TV e TVs sem atalho para a permissão de instalar: o aplicativo mostra onde ativar "Instalar apps desconhecidos" para o Orbit Player.
-- Ao sair da tela cheia na TV ao vivo, o foco volta direto para o canal, sem passar pelo botão "Início".
-- Aviso de vencimento: depois que a assinatura vence, o banner continua vermelho mesmo quando o provedor deixa de informar a data. Se o provedor bloquear a lista sem data conhecida, aparece "Acesso bloqueado". Renovada ou ilimitada, o banner volta ao normal.
-- "Adicionar lista" sempre registra o aparelho de novo, então o MAC e a chave mostrados funcionam no site mesmo com uma lista já salva.
+- O mesmo APK reconhece a versão real do Android e aplica um perfil de interface específico ao Android 14 ou superior. Android 7.1 mantém o layout anterior.
+- Margens laterais de 12 px, textos menores nos cards e títulos sem quebra no meio das palavras.
+- Cards do menu com altura uniforme, datas compactas e botões abaixo do player.
+- Cadastro de lista em duas colunas; com o teclado aberto, campos e botões usam um formulário compacto.
+- Área disponível do teclado medida pelo Android, sem reservar sua altura duas vezes.
+- Subir na tela inicial ou nos detalhes restaura o conteúdo antes de chegar ao botão Voltar.
+- Compilação e testes de interface/navegação aprovados. APK instalado como atualização no aparelho Android 14, sem desinstalação.
 
-Instalação na Fire TV ou Android TV pelo app Downloader: digite `csroyal.ddns.net/orbit`.
+Instalação pelo app Downloader: digite `csroyal.ddns.net/orbit`. Atualize por cima do app existente para manter suas listas e configurações.
