@@ -1,11 +1,12 @@
-# Orbit Player 0.25.29
+# Orbit Player 0.25.31
 
-- O mesmo APK reconhece a versão real do Android e aplica um perfil de interface específico ao Android 14 ou superior. Android 7.1 mantém o layout anterior.
-- Margens laterais de 12 px, textos menores nos cards e títulos sem quebra no meio das palavras.
-- Cards do menu com altura uniforme, datas compactas e botões abaixo do player.
-- Cadastro de lista em duas colunas; com o teclado aberto, campos e botões usam um formulário compacto.
-- Área disponível do teclado medida pelo Android, sem reservar sua altura duas vezes.
-- Subir na tela inicial ou nos detalhes restaura o conteúdo antes de chegar ao botão Voltar.
-- Compilação e testes de interface/navegação aprovados. APK instalado como atualização no aparelho Android 14, sem desinstalação.
+- Abertura mostra só o logo e o indicador de carregamento; mensagens aparecem apenas em caso de erro.
+- Voltar na tela inicial pergunta "Sair do Orbit Player?" antes de fechar o app.
+- Celular: o app gira com o aparelho mesmo com o "girar automático" desligado.
+- O tamanho de fonte do Android não deforma mais a interface; títulos dos cards cabem também em TV Box que informa Android 14 sem sê-lo.
+- Capa selecionada em filmes, séries e tela inicial ganha tom lilás, borda destacada e botão de play, no lugar da borda branca fina.
+- Player de filmes/séries: avançar ou voltar 10 s mantém a seleção nos botões do player; segurar a seta direita/esquerda adianta/volta, acelerando enquanto segura.
+- TV ao vivo em tela cheia: seta para baixo vai ao canal de baixo na lista e para cima ao de cima; a faixa do canal mostra o emblema quando a lista o informa.
+- Adicionar lista: o Enter do teclado passa ao próximo campo e, na senha, seleciona OK; com o teclado aberto os botões ficam visíveis e afastados dos campos. A lista recebe o nome do usuário.
+- Agenda de jogos: o Sport é reconhecido no guia como "Sport" ou "Sport Recife".
 
-Instalação pelo app Downloader: digite `csroyal.ddns.net/orbit`. Atualize por cima do app existente para manter suas listas e configurações.
