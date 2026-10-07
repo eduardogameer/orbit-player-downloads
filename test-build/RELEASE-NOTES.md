@@ -1,12 +1,13 @@
-# Orbit Player 0.25.31
+# Orbit Player 0.25.33
 
-- Abertura mostra só o logo e o indicador de carregamento; mensagens aparecem apenas em caso de erro.
-- Voltar na tela inicial pergunta "Sair do Orbit Player?" antes de fechar o app.
-- Celular: o app gira com o aparelho mesmo com o "girar automático" desligado.
-- O tamanho de fonte do Android não deforma mais a interface; títulos dos cards cabem também em TV Box que informa Android 14 sem sê-lo.
-- Capa selecionada em filmes, séries e tela inicial ganha tom lilás, borda destacada e botão de play, no lugar da borda branca fina.
-- Player de filmes/séries: avançar ou voltar 10 s mantém a seleção nos botões do player; segurar a seta direita/esquerda adianta/volta, acelerando enquanto segura.
-- TV ao vivo em tela cheia: seta para baixo vai ao canal de baixo na lista e para cima ao de cima; a faixa do canal mostra o emblema quando a lista o informa.
-- Adicionar lista: o Enter do teclado passa ao próximo campo e, na senha, seleciona OK; com o teclado aberto os botões ficam visíveis e afastados dos campos. A lista recebe o nome do usuário.
-- Agenda de jogos: o Sport é reconhecido no guia como "Sport" ou "Sport Recife".
+- Tela inicial: nos dias de jogo, o banner mostra "Hoje é dia de futebol!" com o número de jogos do dia (ou em andamento) e convida a abrir a Agenda de jogos para ver o canal do jogo do seu time. O botão Agenda de jogos ganha um ponto verde. O aviso de assinatura continua com prioridade.
+- TV Box: com o teclado aberto na busca, as séries, os filmes e as categorias ocupam todo o espaço acima do teclado, sem a faixa vazia que cobria o conteúdo.
+- TV ao vivo: segurar a seta para cima na lista de canais para no "Buscar canal" em vez de pular sozinho para "Início"; um novo toque leva à barra do topo. Vale também para a busca de filmes e séries.
+
+# Orbit Player 0.25.32
+
+- TV ao vivo: quando a imagem congela, o app percebe em 8 s (antes 12 s) e reconecta sozinho com um player novo, igual a trocar de canal. Antes ele reiniciava o mesmo player travado, que podia continuar congelado.
+- Canal que não mostra imagem ao abrir é reaberto após 20 s (antes 25 s).
+- Erros de transmissão ao vivo como "atrás da janela ao vivo", segmento corrompido ou falha momentânea do decodificador passam a reconectar (até 5 vezes) em vez de parar o vídeo.
+- Configurações > Player: o texto diz só "APK", sem o número antigo 0.6.
 
