@@ -1,6 +1,4 @@
-# Orbit Player 0.25.39
+# Orbit Player 0.25.40
 
-- Agenda de jogos: restaura o fundo e a borda do botão X para fechar.
-- Mostra uma opção por emissora entre os canais confirmados pelo EPG, agrupando afiliadas da Globo/SBT/Record/Band e versões de qualidade. Mantém canais esportivos numerados distintos.
-- Continua consultando o guia das afiliadas separadamente para confirmar a transmissão antes de agrupar.
+- Agenda de jogos: o botão X mantém o fundo escuro e o símbolo claro quando selecionado; o foco usa uma borda fina.
 
