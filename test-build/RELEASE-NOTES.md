@@ -1,7 +1,8 @@
-# Orbit Player 0.25.35
+# Orbit Player 0.25.36
 
-- Detalhes de filmes e séries: ao subir das temporadas para os botões de ação, a tela volta ao topo também na TV Box com Android/WebView antigo.
-- Favoritos: o botão da estrela mantém o foco circular, sem a borda quadrada.
-- O ícone de play fica no canto esquerdo da capa e deixa a estrela de favoritos livre no canto direito.
-- Adicionar ou remover favoritos no catálogo preserva a grade e a rolagem. Ao remover um título na categoria Favoritos, o foco segue para o título mais próximo.
+- Remove o ícone de play das capas selecionadas e mantém o destaque lilás.
+- Afina a borda de foco do botão Voltar nos detalhes.
+- Separa as teclas e os textos Navegar/Selecionar na tela inicial, inclusive em WebView antigo.
+- Configurações: aumenta a margem superior e o espaço abaixo do título, afasta o rodapé da borda da tela e mantém o rodapé sem linha.
+- Guia de TV: impede que os cartões de data encolham, restaura o espaçamento entre eles em WebView antigo e melhora o contraste do mês selecionado.
 
