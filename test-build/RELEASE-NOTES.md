@@ -1,8 +1,7 @@
-# Orbit Player 0.25.34
+# Orbit Player 0.25.35
 
-- TV Box com WebView antigo: corrige os espaçamentos, o posicionamento das configurações e as proporções dos cartões de episódios e elenco.
-- A compilação garante que o APK inclua os arquivos convertidos para WebView antigo.
-- Listas com mais de 50 mil itens são salvas em blocos para reduzir o uso de memória; a importação pelo cadastro web mostra o progresso de salvamento.
-- O banner de futebol tem prioridade durante os jogos do dia e volta a mostrar o aviso da assinatura ao terminar; a validade continua disponível nas configurações.
-- Corrige o envio do formulário de lista em navegadores antigos.
+- Detalhes de filmes e séries: ao subir das temporadas para os botões de ação, a tela volta ao topo também na TV Box com Android/WebView antigo.
+- Favoritos: o botão da estrela mantém o foco circular, sem a borda quadrada.
+- O ícone de play fica no canto esquerdo da capa e deixa a estrela de favoritos livre no canto direito.
+- Adicionar ou remover favoritos no catálogo preserva a grade e a rolagem. Ao remover um título na categoria Favoritos, o foco segue para o título mais próximo.
 
