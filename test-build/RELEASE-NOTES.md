@@ -1,8 +1,7 @@
-# Orbit Player 0.25.36
+# Orbit Player 0.25.37
 
-- Remove o ícone de play das capas selecionadas e mantém o destaque lilás.
-- Afina a borda de foco do botão Voltar nos detalhes.
-- Separa as teclas e os textos Navegar/Selecionar na tela inicial, inclusive em WebView antigo.
-- Configurações: aumenta a margem superior e o espaço abaixo do título, afasta o rodapé da borda da tela e mantém o rodapé sem linha.
-- Guia de TV: impede que os cartões de data encolham, restaura o espaçamento entre eles em WebView antigo e melhora o contraste do mês selecionado.
+- TV ao vivo: o guia mostra até 7 datas em posições fixas, sem estender a coluna até embaixo.
+- Ao descer depois da última data do bloco, a próxima data ocupa o topo do novo bloco; subir na primeira data retorna ao bloco anterior.
+- Mantém o intervalo disponível de 3 dias anteriores a hoje até 6 dias futuros. Enter seleciona a data para consultar o guia.
+- A atualização do relógio preserva o foco na data que está sendo navegada.
 
